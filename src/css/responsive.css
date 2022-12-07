@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+    body {
+        margin-top: 50px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }    
+
+    .container-section.sedan{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .container-section.luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .container-section.sedan,
+    .container-section.suvs,
+    .container-section.luxury {
+        width: 300px;
+        padding: 30px 30px 50px;
+
+    }
+    
+    .description {
+        width: 225px;
+        height: 100px;
+        font-weight: 400;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+}
