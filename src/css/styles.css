@@ -9,6 +9,7 @@ body {
     align-items: center;
     width: 100%;
     min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .container {
@@ -54,32 +55,32 @@ body {
     font-size: 1.5rem;
 }
 
-button {
+a {
     margin-top: 60px;
     font-size: 1.5rem;
-    width: 140px;
-    height: 50px;
+    padding: 12px 26px;
     border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
     border-radius: 25px;
     font-weight: 700;
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.container-section.sedan button {
+.container-section.sedan a {
     color: hsl(31, 77%, 52%);
 }
 
-.container-section.suvs button {
+.container-section.suvs a {
     color: hsl(184, 100%, 22%);
 }
 
-.container-section.luxury button {
+.container-section.luxury a {
     color: hsl(179, 100%, 13%);
 }
 
-.container-section.sedan button:active,
-.container-section.suvs button:active,
-.container-section.luxury button:active {
+.container-section.sedan a:active,
+.container-section.suvs a:active,
+.container-section.luxury a:active {
     color: #fff;
     background-color: transparent;
 }
